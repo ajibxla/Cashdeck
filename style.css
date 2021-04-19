@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,400;1,200;1,300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Mulish', sans-serif;
+    
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+  
+}
+
+nav{
+    width: 10px;
+    height: 100px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+nav h1{
+    font-size: 20px;
+    color: #091F5C;;
+}
+
+#deck{
+    color: rgb(77, 105, 196);
+}
+
+#dot{
+    color: yellow;
+}
+
+#wrapper{
+    margin-top: -50px;
+    display: flex;
+}
+
+.content{
+    width: 30vw;
+    margin-top: 70px;
+}
+
+
+.heading{
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 56px;
+    color: #091F5C; 
+    padding-bottom: 50px;
+    width: 471px;
+}
+
+.content p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #828282;
+    width: 467px;
+    margin-top: -20px;
+    
+}
+
+.why-cashdeck{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-top: -20px;
+    
+}
+
+.icon-wrapper{
+    display: flex;
+    align-items: center;
+    
+}
+
+.icon-wrapper img{
+    width: 50px;
+    height: 52px;
+    margin: 10px;
+    margin-right: 10px;
+   
+}
+
+.icon-wrapper p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: left;
+    color: #828282;
+    padding-left: 20px;
+}
+
+form {
+    margin-top: 20px;
+    display: flex;
+}
+
+form input{
+    background: #FFFFFF;
+    border: 1px solid #091F5C;
+    box-sizing: border-box;
+    border-radius: 5px 0px 0px 5px;
+    width: 342px;
+    height: 46px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+    
+}
+
+form button{
+    background: #091F5C;
+    border-radius: 0px 5px 5px 0px;
+    width: 217px;
+    height: 46px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #F2F2F2;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.landing-img img{
+    width: 550px;
+    height: 550px;
+    margin-left: 160px;
+    
+}
+
+footer{
+    font-size: 15px;
+    color: #091F5C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vh;
+    width: 100%;
+    margin-top: 25px;
+    
+   
+}
+
+footer i{
+    color: #091F5C;
+    justify-content: space-between;
+    margin-left: 10px;
+   
+}
+
+@media (max-width: 576px) { 
+
+    nav{
+        width: 10px;
+        height: 100px;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        
+    }
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+    .landing-img img{
+        display: none;
+    }
+
+    .heading{
+        font-family: Mulish;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 56px;
+        color: #091F5C; 
+        padding-bottom: 30px;
+        width: 400px;
+    }
+
+    .content p{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 25px;
+        color: #828282;
+        width: 400px;
+        margin-top: -20px;
+        
+    }
+
+    form {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form input{
+        background: #FFFFFF;
+        border: 1px solid #091F5C;
+        box-sizing: border-box;
+        border-radius: 5px 0px 0px 5px;
+        width: 200px;
+        height: 30px;
+        padding-left: 20px;
+        font-size: 10px;
+        line-height: 20px;
+        color: #828282;
+        
+    }
+    
+    form button{
+        background: #091F5C;
+        border-radius: 0px 5px 5px 0px;
+        width: 150px;
+        height: 30px;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 20px;
+        color: #F2F2F2;
+        text-transform: uppercase;
+        border: none;
+        cursor: pointer;
+    }
+    .icon-wrapper img{
+        width: 30px;
+        height: 32px;
+        margin: 10px;
+        margin-right: 10px;
+       
+    }
+    .icon-wrapper p{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: left;
+        color: #828282;
+        padding-left: 20px;
+    }
+    
+ }
+
+
