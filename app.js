@@ -8,5 +8,5 @@ const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 tl.fromTo(".heading", { opacity: -1 }, { opacity: 1, duration: 5,});
 
-gsap.from(".landing-img", {duration: 2, x: 300, opacity: 0, scale: 0.5, delay: 2});
+gsap.from(".landing-img", {duration: 2, x: 300, opacity: 0, scale: 0.5, delay: 0.5});
 
